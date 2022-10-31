@@ -10,16 +10,16 @@ public class Recoil : MonoBehaviour
 
     private Coroutine _routine = null;
 
+    public void GiveRecoil()
+    {
+        if (_routine != null)
+            StopCoroutine(_routine);
+
+        _routine = StartCoroutine(RecoilRoutine());
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            if (_routine != null)
-                StopCoroutine(_routine);
-                
-            _routine = StartCoroutine(RecoilRoutine());
-        }
-
         transform.localPosition = Vector3.Lerp(transform.localPosition, recoils[recoilIdx].localpos, recoils[recoilIdx].t);
         transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(recoils[recoilIdx].localeulerangle), recoils[recoilIdx].t);
     }

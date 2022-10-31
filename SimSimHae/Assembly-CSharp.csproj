@@ -39,6 +39,9 @@
      <Compile Include="Assets\_Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\_Scripts\Gun\Recoil\Recoil.cs" />
      <Compile Include="Assets\_Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\_Scripts\Gun\Fire.cs" />
+     <Compile Include="Assets\_Scripts\Gun\Aim.cs" />
+     <Compile Include="Assets\_Scripts\Camera\Shake.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -764,6 +767,15 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\SimSimHae\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\SimSimHae\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\SimSimHae\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\SimSimHae\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
