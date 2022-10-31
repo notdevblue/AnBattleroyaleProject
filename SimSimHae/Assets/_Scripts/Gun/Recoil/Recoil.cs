@@ -8,14 +8,20 @@ public class Recoil : MonoBehaviour
     public RecoilGraph[] recoils = new RecoilGraph[0];
     private int recoilIdx = 0;
 
+    private Coroutine _routine = null;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            StartCoroutine(RecoilRoutine());
+            if (_routine != null)
+                StopCoroutine(_routine);
+                
+            _routine = StartCoroutine(RecoilRoutine());
         }
 
         transform.localPosition = Vector3.Lerp(transform.localPosition, recoils[recoilIdx].localpos, recoils[recoilIdx].t);
+        transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.Euler(recoils[recoilIdx].localeulerangle), recoils[recoilIdx].t);
     }
 
     IEnumerator RecoilRoutine()
@@ -36,5 +42,6 @@ public class RecoilGraph
 {
     public float time = 0.0f;
     public Vector3 localpos = Vector3.zero;
+    public Vector3 localeulerangle = Vector3.zero;
     public float t = 0.1f;
 }
