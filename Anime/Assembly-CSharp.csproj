@@ -36,7 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\Character\Player\Movement.cs" />
+     <Compile Include="Assets\_Scripts\Character\Player\KeyAction\MoveActor.cs" />
+     <Compile Include="Assets\_Scripts\Character\Player\KeyAction\MovementHandler.cs" />
+     <Compile Include="Assets\_Scripts\Character\Player\InputSystem.cs" />
+     <Compile Include="Assets\_Scripts\Character\Player\KeyAction\IHandleInput.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
