@@ -6,7 +6,7 @@ namespace Character.Player.KeyAction
 {
     // 기능
     /*
-    자식 오브젝트의 MoveActor 컴포넌트를 Get 한뒤 Handler 에 추가한 뒤,
+    자식 오브젝트의 KeyActor 컴포넌트를 Get 한뒤 Handler 에 추가한 뒤,
     입력 이벤트를 받아 그에 맞는 헨들러 Invoke
 
     void Action(KeyCode key) {
@@ -16,14 +16,14 @@ namespace Character.Player.KeyAction
 
     public class MovementHandler : MonoBehaviour, IHandleInput
     {
-        private Dictionary<KeyCode, List<MoveActor>> _handlers
-            = new Dictionary<KeyCode, List<MoveActor>>();
+        private Dictionary<KeyCode, List<KeyActor>> _handlers
+            = new Dictionary<KeyCode, List<KeyActor>>();
 
         public IEnumerable<KeyCode> HandledKeys => _handlers.Keys;
 
         private void Awake()
         {
-            MoveActor[] actors = GetComponentsInChildren<MoveActor>(true);
+            KeyActor[] actors = GetComponentsInChildren<KeyActor>(true);
             for (int i = 0; i < actors.Length; ++i)
             {
                 AddHandler(actors[i]);
@@ -45,18 +45,19 @@ namespace Character.Player.KeyAction
             _handlers[key].ForEach(x => x.OnKeyUp(key));
         }
 
-        public void AddHandler(MoveActor actor)
+        public void AddHandler(KeyActor actor)
         {
             actor.handledKeys.ForEach(x => {
                 if (!_handlers.ContainsKey(x))
                 {
-                    _handlers.Add(x, new List<MoveActor>());
-                    _handlers[x].Add(actor);
+                    _handlers.Add(x, new List<KeyActor>());
                 }
+
+                _handlers[x].Add(actor);
             });
         }
 
-        public void RemoveHandler(MoveActor actor)
+        public void RemoveHandler(KeyActor actor)
         {
             actor.handledKeys.ForEach(x => {
                 if (!_handlers.ContainsKey(x))

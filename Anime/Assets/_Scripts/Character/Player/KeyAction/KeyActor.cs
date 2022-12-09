@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Character.Player.KeyAction
 {    
-    abstract public class MoveActor : MonoBehaviour
+    abstract public class KeyActor : MonoBehaviour
     {
         public List<KeyCode> handledKeys;
         
