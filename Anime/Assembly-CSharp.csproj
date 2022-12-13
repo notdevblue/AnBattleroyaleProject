@@ -42,6 +42,7 @@
      <Compile Include="Assets\_Scripts\Character\Player\KeyAction\MovementHandler.cs" />
      <Compile Include="Assets\_Scripts\Character\Player\KeyAction\Movement\MoveActor.cs" />
      <Compile Include="Assets\_Scripts\Matters\Velocity.cs" />
+     <Compile Include="Assets\_Scripts\Character\Animation\Locomotion.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
