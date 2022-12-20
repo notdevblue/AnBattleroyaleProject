@@ -267,6 +267,30 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &333157037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333157035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca789fb0dc06ce4a9abc7f8cdec4ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 333157038}
+  anim: {fileID: 333157036}
+  animations:
+  - name: Idle
+    motionParams:
+      motionParams: {x: 0, y: 0, z: 0}
+    animClip: {fileID: -203655887218126122, guid: 798cb7fcb3494ae4ea468da90d7325ee, type: 3}
+--- !u!95 &333157038 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 78feb8f2a1b1c1a4aac44f292998685d, type: 3}
+  m_PrefabInstance: {fileID: 333157033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
