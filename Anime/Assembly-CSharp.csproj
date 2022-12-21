@@ -330,9 +330,6 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
@@ -705,9 +702,6 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -726,14 +720,8 @@
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
@@ -741,23 +729,14 @@
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
@@ -774,9 +753,6 @@
     <Reference Include="Unity.Burst">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
@@ -788,9 +764,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\nGle\Documents\Projects\Han\SimSimHaeFPS\Anime\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
