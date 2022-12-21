@@ -33,21 +33,18 @@ namespace Character.Player.KeyAction.Movement
 
         private Velocity _velocity;
 
-        
-
         private void Start()
         {
-            handledKeys.Add(KeyCode.W);
-            handledKeys.Add(KeyCode.S);
-            handledKeys.Add(KeyCode.A);
-            handledKeys.Add(KeyCode.D);
+            _velocity = GetComponentInParent<Velocity>();
 
             for (int i = 0; i < _dirs.Length; ++i)
             {
-                _keyEventActions.Add(handledKeys[i], status => {
-                    Move(status ? _dirs[i] : -_dirs[i]);
+                int idx = i;
+                _keyEventActions.Add(handledKeys[idx], status => {
+                    Move(status ? _dirs[idx] : -_dirs[idx]);
                 });
             }
+
         }
 
         public void Move(Vector3 dir)

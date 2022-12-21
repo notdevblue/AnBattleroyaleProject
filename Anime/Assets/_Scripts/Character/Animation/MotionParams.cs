@@ -12,5 +12,10 @@ namespace Character.Animation
         {
             this.motionParams = motionParams;
         }
+
+        public Vector3 Lerp(MotionParams target, float t)
+        {
+            return Vector3.Lerp(this.motionParams, target.motionParams, t);
+        }
     }
 }
